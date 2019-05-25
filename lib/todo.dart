@@ -16,6 +16,8 @@ import 'package:flutter/material.dart';
 import './profile.dart';
 
 class Todo extends StatefulWidget {
+  Todo(int position, String name);
+
   @override
   TodoState createState() {
     return TodoState();
